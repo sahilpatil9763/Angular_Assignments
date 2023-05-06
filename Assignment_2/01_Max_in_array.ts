@@ -1,0 +1,21 @@
+var Arr:number[] = [23,89,6,29,56,45,77,32];
+var Max:number = 0;
+
+Max = Maximum(Arr);
+console.log("Maximum number is : ",Max);
+
+function Maximum(Arr:number[])
+{
+	var i:number = 0;
+	var Max_number:number = 0;
+	
+	for(i = 0; i < Arr.length; i++)
+	{
+		if(Arr[i] > Max_number)
+		{
+			Max_number = Arr[i];
+		}
+	}
+	return Max_number;
+
+}
