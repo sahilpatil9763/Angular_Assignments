@@ -7,10 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Marvellous';
-
-  fun(){
-
-      var call:String = "Marvellous Infosystems";
-      return call;
-    }
 }
